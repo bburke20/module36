@@ -7,7 +7,6 @@ while True:
   direction.analogfront(analog)
   if analog >= 500:
     break
-while True:
   sense = RPL.analogRead(apin)
   if sense >= 400:
     direction.right(4)
